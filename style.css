@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    background: gray;
+   
+  
+}
+
+.div_gray{
+    background: #262525;
+    color:white;
+    padding: 20px;
+}
+.div_gray2{
+    background: #262525;
+    color:white;
+    height:300px;
+}
+
+.back{
+    background:#262525;
+}
+.li_li{
+   
+}
+.my_list{
+    background-image: url("fon.jpg");
+    height:450px;
+    background-size: cover;
+    padding-top: 100px;
+    box-sizing: border-box;
+    
+}
+.li_li:hover{
+     background:#a01515;
+}
+li_href_logo{
+    
+}
+li_href_logo:hover{
+    color:#a01515;
+}
+.h2_list{
+    color:#fff;
+    margin: 0;
+}
+.my_setes{
+    margin-left:700px;
+    margin-top:100px;
+}
+.img_1{
+    width:100px;
+    height:150px;
+}
+.img_2{
+    width:100px;
+    height:150px;
+}
+.img_3{
+    width:100px;
+    height:150px;
+}
+.img_4{
+   width:100px;
+    height:150px; 
+}
+.ins{
+    background-image: url("instagram.png")
+}
+.face{
+    background-image: url("instagram.png")
+}
+.wat{
+    background-image: url("instagram.png")
+}
+.p_text{
+    color:#f07b7b;
+}
+.margin{
+	margin-top:20px;
+}
+.margin1{
+	margin-top:-290px;
+}
+
+.i_1{
+	margin-top:-15px;
+}
+.black-text{
+	color:black;
+}
+.laravel{
+    margin-top:280px;
+}
+.material{
+    margin-top:0;
+}
+.carus{
+    padding-top:20px;
+}
+.card_text{
+    margin-top:-70px;
+}
+.port_img{
+    height:410px;
+}

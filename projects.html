@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=-1">
+</head>
+
+<body>
+    <nav class="back z-depth-4 li_href_logo">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center ">PORTFOLIO</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li class="li_li"><a href="achivments.html">Achivments</a></li>
+                <li class="li_li"><a href="projects.html">Projects</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="achivments.html">Achivements</a></li>
+        <li><a href="projects.html">Projects</a></li>
+    </ul>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card carus">
+                <div class="card-image">
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="images/3.png"></a>
+                        <a class="carousel-item" href="#two!"><img src="images/2.png"></a>
+                        <a class="carousel-item" href="#three!"><img src="images/1.png"></a>
+                        <a class="carousel-item" href="#four!"><img src="images/4.png"></a>
+                    </div>
+                </div>
+                <div class="card-content center-align card_text">
+                    <p>Небольшой промежуток времени я изучал фреймворк Phaser. Он позволяет создавать 2D игры или платформеры. Я создал платформер, суть которого найти выход из комнаты. Сюжет я ещё не придумал,но думаю что у меня получиться сделать его интересным. Раньше в игре был доступен только 1 уровень. Далее я дополнил её - сделал второй уровень. Цель там такая же, как и в первой уровне, но путь к её достижению совершенно другой.</p>
+                    <a href="https://github.com/rebus000/Platform-game.git" class="flow-text" target="_blank">Здесь ссылка на коды</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="video-container center">
+                    <iframe width="560" height="315" class="margin" src="https://www.youtube.com/embed/lzDcTuHV30Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="card-content center-align">
+                    <p>На втором годе своего обучения я изучил игровой движок Unity. На нём я создал небольшой шутер, суть которого отстреливать зомби и не напороться на них. Основной механикой служит классический FPS. Передвижение игрока было реализовано с помощью компонента RigidBody. Зомби преследуют игрока в течении игры благодаря компоненту NayMeshAgent. Большое впечатление на меня произвело анимация моделей зомби, и это оказалось для меня непросто.</p>
+                    <a href="https://github.com/rebus000/Unity-.git" class="flow-text" target="_blank">Здесь ссылка на коды</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col s12 m6 laravel">
+            <div class="card margin1">
+                <div class="card-image">
+                    <img src="images/screen1.png">
+                </div>
+                <div class="card-content center-align">
+                    <p>Изучая PHP,я в тоже время начинал осваивать фреймворк Laravel. Он позволяет упростить манпуляции с сервером, ускоритяет процесс работы и добавляет множество новшеств(миграции, модели и т.д). На нём я создал приложение, под названием "Бюро находок". Суть приложения размещать объявления о пропавших вещах или сообщать о их находке.</p>
+                    <a href="https://github.com/rebus000/laravel.git" class="flow-text" target="_blank">Здесь ссылка на коды</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col s12 m6 material">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/5.png" class="port_img">
+
+                </div>
+                <div class="card-content center-align">
+                    <p>Моё портфолио тоже является моим проектом, сделанным на фреймворке Materialize. Он основан на использовании классов Этот фреймворк мне очень нравиться, т.к он позволяет создавать более красочные и интересные по дизайну сайты.</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="section div_gray2 page-footer">
+        <div class="row container">
+            <h2 class="header">Contact me</h2>
+            <p class="grey-text text-darken-3 lighten-3">With these you can contact me</p>
+            <i class="material-icons">contact_mail
+</i>
+            <p>mustafin1507@gmail.com</p>
+            <p>+79246602700</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        });
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true
+        });
+
+    </script>
+</body>
+
+</html>
